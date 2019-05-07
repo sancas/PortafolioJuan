@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'chronicapro-black';
+    src: url('chronicapro-black-webfont.woff2') format('woff2'),
+         url('chronicapro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chronicapro-bold';
+    src: url('chronicapro-bold-webfont.woff2') format('woff2'),
+         url('chronicapro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chronicapro-book';
+    src: url('chronicapro-book-webfont.woff2') format('woff2'),
+         url('chronicapro-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chronicaprobookit';
+    src: url('chronicaprobookit-webfont.woff2') format('woff2'),
+         url('chronicaprobookit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chronicapromedium';
+    src: url('chronicapromediumit-webfont.woff2') format('woff2'),
+         url('chronicapromediumit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chronicapro-regul';
+    src: url('chronicapro-regular-webfont.woff2') format('woff2'),
+         url('chronicapro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chronicaproregula';
+    src: url('chronicaproregularit-webfont.woff2') format('woff2'),
+         url('chronicaproregularit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
