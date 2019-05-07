@@ -61,54 +61,94 @@
         font-family: 'chronicapro-bold', Arial, sans-serif;
         font-size: 3vw;
       }
-      #portafolio1 {
-        background-image: url("Imagenes/Proyecto 1.png");
+      .portafolio {
         background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 54.84%;
         height: 0;
         padding-top: 7vw;
       }
-      #logoProyecto1 {
-        max-width: 15vw;
+      .logoProyecto {
+        max-height: 15vw;
         margin-left: -1.3vw;
       }
-      #Branding {
-        color: #9999;
+      .Branding {
         font-family: 'chronicapro-book', Arial, sans-serif;
         font-size: 1.5vw;
         font-style: italic;
         margin-bottom: 1vw;
       }
-      #LaFormula {
-        color: #242424;
+      .Trabajo {
         font-family: 'chronicapro-bold', Arial, sans-serif;
         font-size: 2.5vw;
         margin-bottom: 1vw;
       }
-      #LaFormulaDesc {
-        color: #242424;
+      .DescTrabajo {
         font-family: 'chronicapro-book', Arial, sans-serif;
         font-size: 1.5vw;
         line-height: 1;
         text-align: justify;
         margin-bottom: 1vw;
       }
-      #PiezaProyecto1 {
-        background-image: url("Imagenes/Pieza proyecto 1.png");
+      .PiezaProyecto {
         background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 74.93%;
         height: 0;
         margin: 2vw 0;
       }
-      #PiezaProyecto01 {
+      #PiezaProyecto11 {
+        background-image: url("Imagenes/Pieza proyecto 1.png");
+      }
+      #PiezaProyecto12 {
         background-image: url("Imagenes/Pieza proyecto 01.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-bottom: 74.93%;
-        height: 0;
-        margin: 2vw 0;
+      }
+      #PiezaProyecto21 {
+        background-image: url("Imagenes/Pieza proyecto 2.png");
+      }
+      #PiezaProyecto22 {
+        background-image: url("Imagenes/Pieza proyecto 02.png");
+      }
+      #PiezaProyecto31 {
+        background-image: url("Imagenes/Pieza proyecto 3.png");
+      }
+      #PiezaProyecto32 {
+        background-image: url("Imagenes/Pieza proyecto 03.png");
+      }
+      #PiezaProyecto41 {
+        background-image: url("Imagenes/Pieza proyecto 4.png");
+      }
+      #PiezaProyecto42 {
+        background-image: url("Imagenes/Pieza proyecto 04.png");
+      }
+      #portafolio1 {
+        background-image: url("Imagenes/Proyecto 1.png");
+      }
+      #portafolio2 {
+        background-image: url("Imagenes/Proyecto 2.png");
+      }
+      #portafolio3 {
+        background-image: url("Imagenes/Proyecto 3.png");
+      }
+      #portafolio4 {
+        background-image: url("Imagenes/Proyecto 4.png");
+      }
+      #pregunta {
+        color: #FF5722;
+        font-size: 2vw;
+      }
+      #quiensoyfinal {
+        color: #999;
+        font-size: 1.8vw;
+      }
+      #quehago {
+        color: #999;
+        font-size: 1.5vw;
+        text-align: justify;
+      }
+      #worktogether {
+        color: #1257C4;
+        font-size: 1.5vw;
       }
     </style>
     <title>Portafolio Juan Guevara!</title>
@@ -130,28 +170,103 @@
     </div>
     <hr style="width: 80%; margin-top: 3vw">
     <p id="portafolioText" class="d-flex justify-content-center">Portafolio</p>
-    <div id="portafolio1">
+    <div class="portafolio" id="portafolio1">
       <div class="container">
         <div class="row">
           <div class="col-5">
-            <img id="logoProyecto1" class="d-flex justify-content-left" src="Imagenes/Logo proyecto 1.png" />
-            <p id="Branding" class="d-flex justify-content-left">Branding</p>
-            <p id="LaFormula" class="d-flex justify-content-left">La Fórmula</p>
-            <p id="LaFormulaDesc" class="d-flex justify-content-left">Es una agencia publicitaria, trabaja con proyectos audiovisuales para todo tipo de cliente & construye contenido social media & conceptual.</p>
+            <img class="logoProyecto" class="d-flex justify-content-left" src="Imagenes/Logo proyecto 1.png" />
+            <p class="Branding" class="d-flex justify-content-left" style="color: #999;">Branding</p>
+            <p class="Trabajo" class="d-flex justify-content-left" style="color: #242424;">La Fórmula</p>
+            <p class="DescTrabajo" class="d-flex justify-content-left" style="color: #242424;">Es una agencia publicitaria, trabaja con proyectos audiovisuales para todo tipo de cliente & construye contenido social media & conceptual.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="container-fluid">
-    <div class="row">
-      <div class="col-6" style="padding-left: 0px">
-        <div id="PiezaProyecto1" class="col-12"></div>
-      </div>
-      <div class="col-6" style="padding-right: 0px">
-        <div id="PiezaProyecto01" class="col-12"></div>
+      <div class="row">
+        <div class="col-6" style="padding-left: 0px">
+          <div class="PiezaProyecto" id="PiezaProyecto11" class="col-12"></div>
+        </div>
+        <div class="col-6" style="padding-right: 0px">
+          <div class="PiezaProyecto" id="PiezaProyecto12" class="col-12"></div>
+        </div>
       </div>
     </div>
-  </div>
+    <div class="portafolio" id="portafolio2">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <img class="logoProyecto" class="d-flex justify-content-left" src="Imagenes/Logo proyecto 2.png" />
+            <p class="Branding" class="d-flex justify-content-left" style="color: #BA3C3C;">Branding</p>
+            <p class="Trabajo" class="d-flex justify-content-left" style="color: #FFF;">Hilitos</p>
+            <p class="DescTrabajo" class="d-flex justify-content-left" style="color: #FFF;">Proyecto de Catedrá. Se realizó con cliente real (Gabriela María Reyes), emprendedora de tienda en línea de pulseras y accesorios Unisex.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6" style="padding-left: 0px">
+          <div class="PiezaProyecto" id="PiezaProyecto21" class="col-12"></div>
+        </div>
+        <div class="col-6" style="padding-right: 0px">
+          <div class="PiezaProyecto" id="PiezaProyecto22" class="col-12"></div>
+        </div>
+      </div>
+    </div>
+    <div class="portafolio" id="portafolio3">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <img class="logoProyecto" class="d-flex justify-content-left" src="Imagenes/Logo proyecto 3.png" style="max-height: 100%; max-width: 15vw;" />
+            <p class="Branding" class="d-flex justify-content-left" style="color: #BA3C3C;">Branding</p>
+            <p class="Trabajo" class="d-flex justify-content-left" style="color: #423737;">Embarbados</p>
+            <p class="DescTrabajo" class="d-flex justify-content-left" style="color: #423737;">Proyecto de cátedra, inició con la creación de identidad de marca & diseño de producto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6" style="padding-left: 0px">
+          <div class="PiezaProyecto" id="PiezaProyecto31" class="col-12"></div>
+        </div>
+        <div class="col-6" style="padding-right: 0px">
+          <div class="PiezaProyecto" id="PiezaProyecto32" class="col-12"></div>
+        </div>
+      </div>
+    </div>
+    <div class="portafolio" id="portafolio4">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <img class="logoProyecto" class="d-flex justify-content-left" src="Imagenes/Logo proyecto 4.png" />
+            <p class="Branding" class="d-flex justify-content-left" style="color: #FFF;">Branding</p>
+            <p class="Trabajo" class="d-flex justify-content-left" style="color: #C5A6DD;">Violett´s Bakery</p>
+            <p class="DescTrabajo" class="d-flex justify-content-left" style="color: #FFF;">Proyecto de Catedrá. Se realizó con cliente real (Ligia Violeta Tenorio), emprendedora que se dedica a hornear, diseñar & personalizar repostería.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6" style="padding-left: 0px">
+          <div class="PiezaProyecto" id="PiezaProyecto41" class="col-12"></div>
+        </div>
+        <div class="col-6" style="padding-right: 0px">
+          <div class="PiezaProyecto" id="PiezaProyecto42" class="col-12"></div>
+        </div>
+      </div>
+    </div>
+    <hr style="height: 2px; width: 10%; background-color: #1257C4; color: #1257C4">
+    <div class="container">
+      <div id="pregunta" class="text-center Trabajo">
+        ¿Sabía usted que solo el 10% de un 100% de las empresas tiene éxito?
+      </div>
+      <div id="quiensoyfinal" class="Trabajo d-flex justify-content-left">Soy Juan Guevara | Diseñador de marcas</div>
+      <div id="quehago" class="DescTrabajo d-flex justify-content-left">Ayudo a Microempresarios & Empresarios con problemas de posicionamiento, diferencación & personalidad de sus marcas a crear lazos de fidelidad con sus clientes e intención de compra a favor de los productos de su empresa.</div>
+      <div id="worktogether" class="DescTrabajo d-flex justify-content-center">¿Trabajamos Juntos?</div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
